@@ -131,8 +131,8 @@ func (m *Mode) Start() {
 		c.Println("                                4. Type of guiding you use: PHD2 or guiding via camera")
 		c.Println("                                5. Names of your imaging camera and guiding cameras")
 		c.Println()
-		yc.Println("                                NOTE: These public addresses will be available ONLY until")
-		yc.Println("                                agent is running! (Ctrl+C will stop the session)")
+		yc.Println("                                NOTE: These public addresses will be available ONLY while")
+		yc.Println("                                the agent is running! (Ctrl+C will stop the session)")
 		c.Println()
 	} else {
 		c.Println()
